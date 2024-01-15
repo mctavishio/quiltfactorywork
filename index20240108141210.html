@@ -27,13 +27,19 @@
 	<link rel="stylesheet" media="screen" href="css/core.css"/>
 	<style>
 	body {
-		background-image: url("https://storage.googleapis.com/clockfactory/mill20240108141210/poster0002_20240108141210.png"); 
+		background-image: url("https://storage.googleapis.com/clockfactory/mill20240108141210/poster0001_20240108141210.png"); 
 		background-size:cover; background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
 		}
 	main {
 		background-color:var(--gray);
+		border-left: dashed;
+ 		border-left-width: 6px;
+ 		border-left-color: var(--warmblack);
+ 		border-right: dashed;
+ 		border-right-width: 6px;
+ 		border-right-color: var(--warmlightwhite);
 	}
 	</style>
 </head>
@@ -49,6 +55,8 @@
 	<ul>
 		<li><a href="index.html" id="indexlink">back to quilt index</a></li>
 		<li><a href="https://mctavish.work/index.html" id="homelink">go to mctavish portfolio</a></li>
+		<li><a href="#audio">audio tracks</a></li>
+		<li><a href="#books">books</a></li>
 	</ul>
 </nav>
 <div class="screenreader-text">
@@ -60,7 +68,7 @@
 	</header>
 	<div class="content">
 <figure>
-<video controls poster="https://storage.googleapis.com/clockfactory/mill20240108141210/poster0002_20240108141210.png">
+<video controls poster="https://storage.googleapis.com/clockfactory/mill20240108141210/poster0000_20240108141210.png">
   <source src="https://storage.googleapis.com/clockfactory/mill20240108141210/filmsound.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -69,23 +77,33 @@
 </article>
 <article id="audio">
 	<header>
-		<h1>soundscape alone</h1>
+		<h1>audio</h1>
 	</header>
 	<div class="content">
+	<h5>soundscape with reverb</h5>
+	<p>
+		<audio loop=true controls="true" id="soundscape" src="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_reverb.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio>
+	</p>
+	<h5>soundscape with reverb & echo</h5>
 	<p>
 		<audio loop=true controls="true" id="soundscape" src="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_echo_reverb.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio>
 	</p>
+	<h5>sound files</h5>
+	<p>
+	<ul>
+		<li><a href="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_reverb.mp3">sound file with reverb</a></li>
+		<li><a href="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_echo_reverb.mp3">sound file with reverb & echo</a></li>
+	</ul>
+	</p>
 	</div>
 </article>
-<article id="otherfiles">
+<article id="books">
 	<header>
-		<h1>other files</h1>
+		<h1>books</h1>
 	</header>
 	<div class="content">
 	<ul>
 		<li><a href="https://storage.googleapis.com/clockfactory/mill20240108141210/printbook.pdf">pattern book</a></li>
-		<li><a href="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_reverb.mp3">sound file with reverb</a></li>
-		<li><a href="https://storage.googleapis.com/clockfactory/mill20240108141210/line_all_thread_all_echo_reverb.mp3">sound file with reverb & echo</a></li>
 	</ul>
 	</div>
 </article>
