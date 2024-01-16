@@ -319,6 +319,9 @@ blockquote {
 	min-width: 300px;
 	padding: 1%;
 }
+.gallery > div.item {
+	max-width: 400px;
+}
 .gallery > div.swatch {
 	width: 10em;
 	max-width: 24%;
